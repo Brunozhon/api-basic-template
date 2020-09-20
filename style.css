@@ -1,0 +1,23 @@
+html, head, body, p, div, 
+img, video, audio, article,
+blockquote, picture, .block-element, #block-element {
+  display: block;
+}
+a, b, style, link, meta,
+script, em, i, span,
+area, section,
+.inline-element, #inline-element {
+  display: inline;
+}
+a[href]:link {
+  color: #00FFFF;
+}
+a[href]:active {
+  color: #FF0000;
+}
+a[href]:hover {
+  color: #00FF00;
+}
+a[href]:visited {
+  color: #800080;
+}
